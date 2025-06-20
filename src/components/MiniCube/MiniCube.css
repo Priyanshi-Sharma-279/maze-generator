@@ -1,0 +1,21 @@
+.cube:hover{
+    border: 2px solid #212529d8;
+    cursor: pointer;
+    color:magenta;
+}
+.cube{
+  background-color:#fffdd0;
+  border: 2px solid black;
+  gap:7px;
+}
+
+.cube.start{
+  background-color: green;
+}
+.cube.goal{
+  background-color: red;
+}
+
+.cube.block{
+  background-color: black;
+}

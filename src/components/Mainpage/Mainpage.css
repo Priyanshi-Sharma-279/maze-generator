@@ -1,0 +1,122 @@
+.bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;    
+
+  h2{
+    color:#cdbdee;
+  }
+  .GenerateButton{
+    color:black;
+    background-color: #e3caee;
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+
+  .options{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  margin-top: 20px;
+  }
+
+
+}
+
+.maze-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+
+  input{
+    color:black;
+    background-color: #fffdd0;
+    padding: 10px 30px;
+    border-radius: 30px;
+
+  }
+  .create-btn{
+    color:black;
+    background-color: #f9dada;
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+  .random-btn{
+    color:black;
+    background-color: #cdbdee;
+    padding: 10px 30px;
+    border-radius: 30px;
+
+  }
+}
+
+input {
+  padding: 5px;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.text{
+  display: flex;
+  gap: 5px;
+  margin-top: 1rem;
+  justify-content: center;
+  color:black;
+}
+
+.solve-buttons{
+  display: flex;
+  gap: 10px;
+ 
+  justify-content: center;
+
+  .dfs{
+    color:black;
+    background-color: #f9dada;
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+  .bfs{
+    color:black;
+    background-color: #f9dada;
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+}
+
+.control-buttons{
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    top:400px;
+    right:400px;
+    gap:30px;
+
+    .pause,.reset,.play{
+      color:black;
+    background-color: #cdbdee;
+    padding: 10px 30px;
+    border-radius: 30px;
+    }
+
+    h1{
+      color:#cdbdee;
+    }
+    
+
+    
+
+
+
+  }
+
